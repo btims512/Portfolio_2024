@@ -1,13 +1,14 @@
+// src/components/Footer.js
 import React from "react";
 import { Footer } from "react-storybook-library-v3";
-import { ReactComponent as ReactIcon } from "./assets/icon-react.svg";
-import { ReactComponent as DataIcon } from "./assets/icon-data.svg";
-import { ReactComponent as JsIcon } from "./assets/icon-js.svg";
+import { ReactComponent as ReactIcon } from "../assets/icon-react.svg";
+import { ReactComponent as DataIcon } from "../assets/icon-data.svg";
+import { ReactComponent as JsIcon } from "../assets/icon-js.svg";
 
 const FooterComponent = () => {
   return (
     <Footer>
-      <div className="icon-links">
+      <div id="contact" className="icon-links">
         <a
           href="https://reactjs.org/"
           target="_blank"
