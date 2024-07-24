@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Footer, PageLayout } from "react-storybook-library-v3";
+import "./global.scss";
+
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
+import About from "./components/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PageLayout
+      navbar={<NavBar />}
+      footer={<Footer />}
+      hero={<Hero />}
+      projects={<Projects />}
+      technologies={<Technologies />}
+      about={<About />}
+      contact={
+        <div id="contact">
+          <p>Contact section content goes here</p>
+        </div>
+      }
+    />
   );
 }
 
