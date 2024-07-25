@@ -1,4 +1,3 @@
-// src/components/Footer.js
 import React from "react";
 import { Footer } from "react-storybook-library-v3";
 import { ReactComponent as ReactIcon } from "../assets/icon-react.svg";
@@ -8,7 +7,7 @@ import { ReactComponent as JsIcon } from "../assets/icon-js.svg";
 const FooterComponent = () => {
   return (
     <Footer>
-      <div id="contact" className="icon-links">
+      <div className="icon-links">
         <a
           href="https://reactjs.org/"
           target="_blank"

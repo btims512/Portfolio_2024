@@ -9,6 +9,7 @@ import Technologies from "./components/Technologies";
 import About from "./components/About";
 import FooterComponent from "./components/Footer";
 import Contact from "./components/Contact";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         about={<About />}
       />
       <Contact />
+      <BackToTopButton />
     </>
   );
 }
