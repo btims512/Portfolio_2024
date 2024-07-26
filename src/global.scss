@@ -6,7 +6,8 @@ html {
   /* Color Variables */
   --svg-color-light: #B133FF;
   --svg-color-dark: #F46737;
-  --radius-card: 40px;
+  --radius-card: 24px;
+  --radius-large: 40px; 
 }
 
 /* Light Mode */
@@ -54,8 +55,6 @@ body.dark {
 
 
 .about {
-  border-top-left-radius: var(--radius-card, 40px);
-  border-top-right-radius: var(--radius-card, 40px);
   width: fit-content;
 }
 
