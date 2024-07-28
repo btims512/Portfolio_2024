@@ -42,6 +42,15 @@ export const projectsData = [
     icon: "/assets/project-logo-apple@2x.png",
   },
   {
+    title: "Picture Hut",
+    description:
+      "Picture Hut is an advanced image searcher built using React and styled with Less, featuring a completely accessible design, impressive UI/UX, and theme colors. The site leverages Axios for efficient API calls.",
+    tech: ["React", "Less", "Axios"],
+    codeLink: "https://github.com/btims512/image-gallery",
+    visitLink: "https://picturehut.netlify.app/",
+    icon: "/assets/project-logo-picture-hut@2x.png",
+  },
+  {
     title: "Tibles",
     description:
       "With building digital collectibles since 2012 for brands like Star Wars, Disney, NFL and many more, Tibles Inc has more experience making officially-licensed digital collectibles for top brands than anyone in the business.",
@@ -103,15 +112,6 @@ export const projectsData = [
     codeLink: "https://github.com/btims512/exchangeRate",
     visitLink: "https://exchangeratesrus.netlify.app/",
     icon: "/assets/project-logo-currency@2x.png",
-  },
-  {
-    title: "Chatthew",
-    description:
-      "Developed chat app platform integrating the use of WebSockets. Complete with account sign-in landing page then dashboard displaying chatrooms. Implemented the use of styled-components and ant-design for styling. Launched app using Netlify.",
-    tech: ["React", "JavaScript", "ChatEngine.io"],
-    codeLink: "https://github.com/btims512/Chat-App",
-    visitLink: "https://chatthew.netlify.app/",
-    icon: "/assets/project-logo-chat@2x.png",
   },
   {
     title: "Find Dat Gif!",
