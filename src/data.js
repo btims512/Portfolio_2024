@@ -42,6 +42,15 @@ export const projectsData = [
     icon: "/assets/project-logo-apple@2x.png",
   },
   {
+    title: "Trivia Game",
+    description:
+      "An interactive trivia game with multiple difficulty levels and categories, offering an accessible design for all players. Questions are dynamically fetched using Axios for a fresh experience each time.",
+    tech: ["React", "HTML", "CSS", "Open Trivia Database API"],
+    codeLink: "https://github.com/btims512/trivia-game",
+    visitLink: "https://trivio-quiz.netlify.app/",
+    icon: "/assets/project-logo-trivia-game@2x2.png",
+  },
+  {
     title: "Picture Hut",
     description:
       "Picture Hut is an advanced image searcher built using React and styled with Less, featuring a completely accessible design, impressive UI/UX, and theme colors. The site leverages Axios for efficient API calls.",
@@ -95,15 +104,15 @@ export const projectsData = [
     visitLink: "https://vinylreckoning.netlify.app/",
     icon: "/assets/project-logo-vinyl@2x.png",
   },
-  {
-    title: "Instagram Clone",
-    description:
-      "Made using React with Firebase serving as a backend. Fully loaded with the ability to upload, comment, sign-up and sign-in, it's everything you love about Instagram without legally being Instagram!",
-    tech: ["React", "Firebase", "CSS", "styled-components"],
-    codeLink: "https://github.com/btims512/instagram-clone",
-    visitLink: "https://instagram-clone-react-7e7e3.web.app/",
-    icon: "/assets/project-logo-instagram_clone@2x.png",
-  },
+  // {
+  //   title: "Instagram Clone",
+  //   description:
+  //     "Made using React with Firebase serving as a backend. Fully loaded with the ability to upload, comment, sign-up and sign-in, it's everything you love about Instagram without legally being Instagram!",
+  //   tech: ["React", "Firebase", "CSS", "styled-components"],
+  //   codeLink: "https://github.com/btims512/instagram-clone",
+  //   visitLink: "https://instagram-clone-react-7e7e3.web.app/",
+  //   icon: "/assets/project-logo-instagram_clone@2x.png",
+  // },
   {
     title: "Currensee",
     description:
