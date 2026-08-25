@@ -155,9 +155,9 @@ export const technologiesData = [
 export const aboutData = {
   title: "About",
   text: [
-    "Howdy folks! I'm Ben, a front-end software engineer hailing from the beautiful city of Austin, TX. I've always been fascinated by technology, ever since my first Game Boy and my trusty Windows 95 computer. But it wasn't until 2019 that I decided to take the plunge and dive into programming headfirst, starting with some self-taught online courses and working my way up to a full-blown bootcamp.",
-    "Before my days of coding, I spent a whopping 8 years in Apple technical support, where I became an expert in all things iOS and macOS. I even spent a good chunk of that time as a trainer, sharing my knowledge and teaching others the ropes.",
-    "But after years of talking about technology, I decided it was time to get my hands dirty and see how it all works under the hood. What started as a curiosity quickly turned into a passion, and now I spend my days building beautiful and functional websites that would make my Game Boy proud.",
+    "Howdy! I’m Ben, a frontend developer based in Austin, Texas. I build accessible, responsive web experiences that combine thoughtful user experience with clean, maintainable code. I’ve been fascinated by technology since my first Game Boy and Windows 95 computer—a curiosity that eventually led me into coding.",
+    "My Apple career began in technical training, mentoring, and customer-focused problem-solving before expanding into frontend and content development. In those development roles, I built accessible internal web experiences and interactive technical learning tools. I’ve also delivered responsive, customer-facing launch sites as a frontend consultant for a digital collectibles company.",
+    "That background continues to shape how I work: understanding the user’s perspective, debugging methodically, explaining technical decisions clearly, and collaborating across design, content, and engineering. I’m especially interested in frontend opportunities where accessibility, technical problem-solving, collaboration, and continuous improvement are valued.",
   ],
   icon: "/assets/image-ben-2@3x.png",
 };

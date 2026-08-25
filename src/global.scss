@@ -57,6 +57,19 @@ body.dark {
   width: fit-content;
 }
 
+.about-text {
+  line-height: 1.5;
+
+  p {
+    line-height: inherit;
+    margin: 0 0 var(--s-16);
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .content {
   margin-top: 20px;
 }
