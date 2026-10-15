@@ -29,7 +29,7 @@ export const projectsData = [
     tech: ["React", "Storybook", "CSS", "Chromatic", "Figma"],
     codeLink: "https://github.com/btims512/storybook-library/tree/main/",
     visitLink:
-      "https://6698136741a8af33d6e341ed-eytmmxhrxt.chromatic.com/?path=/docs/introduction--docs",
+      "https://main--6698136741a8af33d6e341ed.chromatic.com/?path=/docs/introduction--docs",
     icon: "/assets/project-logo-storybook@2x.png",
   },
   // Keep Apple at index 2: ProjectCardLayout renders the 3rd card without Code/Visit buttons.
@@ -84,7 +84,7 @@ export const projectsData = [
       "A website designed for the selling and trading of the official Dr. Seuss NFT collectibles by Tibles Inc partnered with with Dapper Labs. Made using basic HTML and CSS. Fit to be responsive for all devices via the use of media queries.",
     tech: ["HTML", "CSS", "JavaScript"],
     codeLink: "https://github.com/btims512/seussibles",
-    visitLink: "https://www.tibles.com/seussibles-old",
+    visitLink: "https://seussibles.tibles.com/clubhouse",
     icon: "/assets/project-logo-seussibles@2x.png",
   },
   {
