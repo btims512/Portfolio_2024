@@ -14,6 +14,15 @@ export const heroData = {
 
 export const projectsData = [
   {
+    title: "Ben Tims Media",
+    description:
+      "Designed and developed a responsive, SEO-optimized website for my real estate photography business from the ground up. Features an end-to-end self-service booking flow with calendar scheduling, add-on selection, and secure Stripe checkout for deposits or full payment.",
+    tech: ["Astro", "React", "TypeScript", "Tailwind", "Stripe"],
+    codeLink: "https://github.com/Zeta-Design/btp",
+    visitLink: "https://bentimsmedia.com/",
+    icon: "/assets/project-logo-bentimsmedia@2x.png",
+  },
+  {
     title: "Storybook Component Library",
     description:
       "Developed a comprehensive Storybook component library with 30+ components and 43 stories, set up for use in my portfolio website. Implemented design tokens for consistent theming. Published and maintained the library for collaborative use.",
@@ -23,15 +32,7 @@ export const projectsData = [
       "https://6698136741a8af33d6e341ed-eytmmxhrxt.chromatic.com/?path=/docs/introduction--docs",
     icon: "/assets/project-logo-storybook@2x.png",
   },
-  {
-    title: "Find My ISS",
-    description:
-      "A web app developed for tracking the International Space Station in real time on a map. This app pings the ship's latitude and longitude, enabling users to monitor it as well as check other important information such as velocity, altitude, and more.",
-    tech: ["Javascript", "API", "HTML", "CSS"],
-    codeLink: "https://github.com/btims512/ISS_tracker",
-    visitLink: "http://findmyiss.bentims.com/",
-    icon: "/assets/project-logo-iss@2x.png",
-  },
+  // Keep Apple at index 2: ProjectCardLayout renders the 3rd card without Code/Visit buttons.
   {
     title: "Apple",
     description:
@@ -40,6 +41,15 @@ export const projectsData = [
     codeLink: "#",
     visitLink: "#",
     icon: "/assets/project-logo-apple@2x.png",
+  },
+  {
+    title: "Find My ISS",
+    description:
+      "A web app developed for tracking the International Space Station in real time on a map. This app pings the ship's latitude and longitude, enabling users to monitor it as well as check other important information such as velocity, altitude, and more.",
+    tech: ["Javascript", "API", "HTML", "CSS"],
+    codeLink: "https://github.com/btims512/ISS_tracker",
+    visitLink: "http://findmyiss.bentims.com/",
+    icon: "/assets/project-logo-iss@2x.png",
   },
   {
     title: "Trivia Game",
