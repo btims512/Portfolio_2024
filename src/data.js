@@ -165,7 +165,7 @@ export const technologiesData = [
 export const aboutData = {
   title: "About",
   text: [
-    "Howdy! I’m Ben, a frontend developer based in Austin, Texas. I build accessible, responsive web experiences that combine thoughtful user experience with clean, maintainable code. I’ve been fascinated by technology since my first Game Boy and Windows 95 computer—a curiosity that eventually led me into coding.",
+    "Howdy! I’m Ben, a frontend developer based in Austin, Texas. I build accessible, responsive web experiences that combine thoughtful user experience with clean, maintainable code. I’ve been fascinated by technology since my first Game Boy and Windows 95 computer, a curiosity that eventually led me into coding.",
     "My Apple career began in technical training, mentoring, and customer-focused problem-solving before expanding into frontend and content development. In those development roles, I built accessible internal web experiences and interactive technical learning tools. I’ve also delivered responsive, customer-facing launch sites as a frontend consultant for a digital collectibles company.",
     "That background continues to shape how I work: understanding the user’s perspective, debugging methodically, explaining technical decisions clearly, and collaborating across design, content, and engineering. I’m especially interested in frontend opportunities where accessibility, technical problem-solving, collaboration, and continuous improvement are valued.",
   ],
