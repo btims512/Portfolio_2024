@@ -13,7 +13,10 @@ const HeroComponent = () => {
         <Button
           label={heroData.buttonLabel}
           onClick={() =>
-            window.open("https://benjamintimsresume.netlify.app/", "_blank")
+            window.open(
+              `${process.env.PUBLIC_URL}/Benjamin_Tims_Resume.pdf`,
+              "_blank"
+            )
           }
         />
       }
